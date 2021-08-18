@@ -10,7 +10,7 @@ const leagueTables = [
      
     if(T1.points<T2.points){
 
-        return 1;          } 
+        return 1;    } 
     
     else if(T1.points===T2.points){
 

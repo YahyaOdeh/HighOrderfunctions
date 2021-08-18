@@ -12,7 +12,18 @@ const products = [
   // 1. find the product with id = 1 ( don't use filter )
   // 2. return the total price for all products ( without using loops )
   
-  console.log(products[1])
+const FindID = products.forEach(function(element) {
+    
+    if(element.id===1) {
+
+        console.log(element)
+    }
+    
+});
+
+  console.log(FindID)
+  
+/////////////////////////////////////////
 
   const ProductsSum = products.reduce((sum,ite)=>
   sum + ite.price, 0

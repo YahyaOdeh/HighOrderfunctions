@@ -9,14 +9,8 @@ let products = [
   ]
 
   // write single line code to print only cars products using high order functions 
-  //  products.forEach(function (pName){ console.log(pName.name)})
+    products.forEach(function (pName){ console.log(pName.name)})
 
-    let i =0;
-
-    products.forEach((element) => {element.id = i++}
     
-    )
-
-    console.log(products)
 
  
