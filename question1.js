@@ -9,8 +9,17 @@ let products = [
   ]
 
   // write single line code to print only cars products using high order functions 
+
+// ++ your code print all products :|
     products.forEach(function (pName){ console.log(pName.name)})
 
     
-
+/*
+expected output 
+[
+    { category: "cars", name : "bmw" },
+    { category: "cars", name : "kia" },
+    { category: "cars", name : "honda" }, 
+  ]
+*/
  

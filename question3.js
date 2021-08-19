@@ -21,6 +21,11 @@ const FindID = products.forEach(function(element) {
     
 });
 
+// simpler solution using find method 
+// find will try to find the first element that match the condition, if not match it will return undefined
+// products.find(p => p.id === 1 )
+
+
   console.log(FindID)
   
 /////////////////////////////////////////
