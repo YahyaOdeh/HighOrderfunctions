@@ -12,5 +12,9 @@ let products = [
 let i =0;
 
 products.forEach((element) => {(element.id = i++)})
+// alternative solution
+// products.forEach((element,index) => {(element.id = index)})
 
 console.log(products)
+
+
